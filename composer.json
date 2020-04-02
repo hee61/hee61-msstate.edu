@@ -177,4 +177,5 @@
     },
     "extra": { "key": "value" },
     "bin": ["./bin/toto"]
+    }
 }

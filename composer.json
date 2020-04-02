@@ -110,42 +110,7 @@
             "packagist.org": false
         }
     ],
-    "config": {
-        "process-timeout": 300,
-        "use-include-path": false,
-        "preferred-install": "auto",
-        "store-auths": "prompt",
-        "github-protocols": ["git", "https", "http"],
-        "github-oauth": {"github.com": "oauthtoken"},
-        "gitlab-oauth": {"gitlab.com": "oauthtoken"},
-        "github-domains": ["enterprise-github.me.com"],
-        "gitlab-domains": ["enterprise-gitlab.me.com"],
-        "github-expose-hostname": true,
-        "disable-tls": false,
-        "cafile": "/var/certif.ca",
-        "capath": "/var/",
-        "http-basic": {"me.io":{"username":"foo","password":"bar"},
-        "platform": {"php": "5.4", "ext-something": "4.0"},
-        "vendor-dir": "vendor",
-        "bin-dir": "bin",
-        "data-dir": "/home/ternel/here",
-        "cache-dir": "$home/cache",
-        "cache-files-dir": "$cache-dir/files",
-        "cache-repo-dir": "$cache-dir/repo",
-        "cache-vcs-dir": "$cache-dir/vcs",
-        "cache-files-ttl": 15552000,
-        "cache-files-maxsize": "300MiB",
-        "bin-compat": "auto",
-        "prepend-autoloader": true,
-        "autoloader-suffix": "pony",
-        "optimize-autoloader": false,
-        "sort-packages": false,
-        "classmap-authoritative": false,
-        "notify-on-install": true,
-        "discard-changes": false,
-        "archive-format": "tar",
-        "archive-dir": "."
-    },
+    
     "archive": {
         "exclude": ["/foo/bar", "baz", "/*.test", "!/foo/bar/baz"]
     },

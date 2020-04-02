@@ -173,8 +173,8 @@
         "post-root-package-install": "MyVendor\\MyClass::doStuff",
         "post-create-project-cmd": "MyVendor\\MyClass::doThis",
         "pre-archive-cmd": "MyVendor\\MyClass::doSomething",
-        "post-archive-cmd": "MyVendor\\MyClass::doSomething",
-    }
+        "post-archive-cmd": "MyVendor\\MyClass::doSomething"
+    },
     "extra": { "key": "value" },
     "bin": ["./bin/toto"]
 }

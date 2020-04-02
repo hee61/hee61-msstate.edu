@@ -1,10 +1,13 @@
 {
-    "require": {
-        "monolog/monolog": "1.0.*",
-        "joli/ternel": "@dev",
-        "joli/ternel-bundle": "@stable",
-        "joli/semver": "^2.0",
-        "joli/package": ">=1.0 <1.1",
-        "acme/foo": "dev-master#2eb0c097"
-    }
+    "name": "hee61/scripts",
+    "description": "Using the init command to create a new project.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hannah Eakes",
+            "email": "hee61@msstate.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
